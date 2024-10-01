@@ -39,7 +39,7 @@ namespace PythagoraSolver
                             Console.Write("Enter the length of the Adjacent: ");
                             }
                             Result = Math.Sqrt((Adjacent * Adjacent) + (opposite * opposite));
-                            Console.WriteLine($"Your Answer is: = {Result}");                  
+                            Console.WriteLine($"Tne Hypotenus is: = {Result}");                  
                         break;
                     case "2":
                             Console.WriteLine("Enter the legth of the Hypotenus: ");
@@ -55,7 +55,7 @@ namespace PythagoraSolver
                             Console.Write("Enter the length of the Adjacent: ");
                             }
                             Result = Math.Sqrt((Hypotenus * Hypotenus) - (Adjacent * Adjacent));
-                            Console.WriteLine($"Your Answer is: = {Result}");
+                            Console.WriteLine($"Tne Opposite is: = {Result}");
                         break;  
                     case "3":
                             Console.WriteLine("Enter the legth of the Hypotenus: ");
@@ -72,7 +72,7 @@ namespace PythagoraSolver
                             }
 
                             Result = Math.Sqrt((Adjacent * Adjacent) - (opposite * opposite));
-                            Console.WriteLine($"Your Answer is: = {Result}");
+                            Console.WriteLine($"The Adjacent is: = {Result}");
                         break;
                     default:
                         Console.WriteLine("Invalid Input!!!");
@@ -82,7 +82,7 @@ namespace PythagoraSolver
                 Console.WriteLine("To Restart the program click \"Y\" ");
                 Console.Write("Press any button to end the program");
             }
-            while (Console.ReadLine().ToUpper() == "Y");
+            while (Console.ReadLine()?.ToUpper() == "Y");
             {
                 Console.WriteLine("Have a Good Day!!!");
             }
